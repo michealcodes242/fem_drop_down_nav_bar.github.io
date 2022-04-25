@@ -1,7 +1,6 @@
 # Frontend Mentor - Intro section with dropdown navigation
 
-(./design/desktop-preview.jpg)
-
+![Design preview for the Intro section with dropdown navigation coding challenge](./design/desktop-preview.jpg)
 ## Welcome! 👋
 
 Thanks for checking out my front-end challenge curtesy of "frontendmentor.io".
