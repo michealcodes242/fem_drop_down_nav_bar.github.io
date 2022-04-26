@@ -1,4 +1,63 @@
 body {
   font-family: "Outfit", sans-serif;
   font-weight: 500;
+}
+
+p {
+  font-weight: 700;
+}
+
+h1 {
+  color: hsl(0deg, 0%, 8%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  display: flex;
+  height: 4em;
+}
+
+.logo-ctn {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-ctn .logo {
+  width: 40%;
+}
+
+.nav-ctn {
+  width: 75%;
+}
+
+nav {
+  display: flex;
+  height: 3.3em;
+  align-items: center;
+}
+nav ul {
+  margin-right: 60px;
+}
+
+.links {
+  display: flex;
+  height: 3.3em;
+  align-items: center;
+  width: 20%;
+}
+.links a {
+  margin-right: 35px;
+  text-decoration: none;
+}
+.links .nav-btn {
+  background-color: #fff;
+  padding: 0.6em 2em;
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: rgb(137, 135, 135);
 }/*# sourceMappingURL=main.css.map */
