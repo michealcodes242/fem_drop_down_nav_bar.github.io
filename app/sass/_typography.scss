@@ -9,11 +9,31 @@ p {
     font-weight:700;
     color:$gray hsl(0, 0%, 41%);
     font-size:30px;
+    @include md {
+       font-size:35px;
+       text-align:center;
+    }
+    @include sm{
+        font-size:25px;
+      
+     }
+
 }
 
 h1 {
     font-family: 'Epilogue', sans-serif;
     color:$black;
     font-size:80px;
+    @include md {
+        font-size:55px;
+        text-align:center;
+      
+     }
+     @include sm{
+        font-size:35px;
+      
+     }
+    
+
 }
 

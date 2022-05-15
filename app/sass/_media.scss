@@ -1,12 +1,12 @@
 
 
 @mixin sm{
-    @media (max-width:320px ){
+    @media (max-width:412px ){
         @content;
     }
 }
 @mixin xs{
-    @media (min-width: map-get(breakpoints, "sm")){
+    @media (min-width:320){
         @content;
     }
 }
@@ -15,3 +15,15 @@
         @content;
     }
 }
+
+@mixin large{
+    @media (max-width:1024px){
+        @content;
+    }
+}
+@mixin xlarge{
+    @media (max-width:1440px){
+        @content;
+    }
+}
+
