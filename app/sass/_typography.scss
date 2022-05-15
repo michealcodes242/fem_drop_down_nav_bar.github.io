@@ -1,18 +1,19 @@
 // Fonts import
 
 
-body {
-    font-family:'Outfit', sans-serif;
-    font-weight:500;
-  
-}
+
 
 
 p {
+    font-family:'Outfit', sans-serif;
     font-weight:700;
+    color:$gray hsl(0, 0%, 41%);
+    font-size:30px;
 }
 
 h1 {
+    font-family: 'Epilogue', sans-serif;
     color:$black;
+    font-size:80px;
 }
 

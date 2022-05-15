@@ -21,6 +21,10 @@
     
     .logo {
         width:40%;
+        @include md  {
+           width:100%;
+           margin-left:30%;
+        }
     }
 }
 
@@ -79,20 +83,21 @@
 
 
 
-.logo{
+.nav-bar {
+
     @include md {
-   display: none;
+    flex-direction:row-reverse;
     }
 }
 
 
 .links{
     @include md {
-   width:40%;
+  display:none;
     }
 }
 
-nav {
+.nav-ctn {
     @include md {
         display:none;
     }
@@ -105,6 +110,7 @@ nav {
      
         padding:0.3em;
         margin-top:10px;
+       
     }
 }
 
@@ -118,9 +124,18 @@ span {
     }
 }
 
-.nav-ctn {
+
+
+.spacer {
     @include md {
-        width: 25%;
+        width:80%;
     }
-   
+
+
+}
+
+.logo {
+    @include md {
+        width:100%;
+    }
 }
