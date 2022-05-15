@@ -34,9 +34,25 @@
 .hero-d {
     max-width:100%;
     height:$sec-height;
-    @include sm {
-      height:30em;
+    @include md {
+        display:none;
     }
+   
+}
+.hero-m {
+    display:none;
+
+    @include md {
+    display:initial;
+    max-width:100%;
+    height:$sec-height;
+    height:50em;
+    }
+
+    @include sm {
+        height:30em;
+     }
+    
 }
 
 
